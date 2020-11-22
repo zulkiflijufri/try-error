@@ -1,0 +1,141 @@
+* {
+    font-family: "Montserrat", "Poppins", sans-serif;
+}
+
+.nav-brand {
+    width: 176px;
+    border-radius: 0 0 50px 50px;
+    background-color: white;
+}
+
+.search-donate input[type="text"] {
+    width: 70%;
+    padding: 6px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+}
+::-webkit-input-placeholder,
+input {
+    text-align: center;
+}
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+.search-donate {
+    position: relative;
+}
+.search-donate img {
+    top: 10px;
+    left: 80%;
+    position: absolute;
+}
+
+.xs-welcome-wraper h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.xs-welcome-wraper p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    line-height: 39px;
+}
+
+.xs-heading .xs-title {
+    font-weight: bold;
+    font-size: 48px;
+}
+.xs-heading p {
+    font-size: 20px;
+}
+
+.xs-simple-tag li a {
+    font-size: 16px;
+    color: #ffb545;
+    text-transform: capitalize;
+}
+
+.xs-list-with-content li {
+    /* -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.33333%; */
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.xs-list-with-content li span {
+    font-size: 0.875em;
+    color: #333;
+    font-weight: 450;
+    display: block;
+}
+
+.btn-primary {
+    margin-top: 30px;
+    background-color: #ffa825;
+}
+
+.row .counter,
+.row .feature {
+    margin-top: 50px;
+}
+.counter h2 {
+    color: #ff9a03;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.counter h3,
+.counter .item-icon,
+.counter .item-desc,
+.main-feature {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.counter img {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.counter .item-desc {
+    font-size: 20px;
+}
+
+.feature .item-title {
+    margin-top: 20px;
+}
+.feature p {
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.xs-info-list li,
+.xs-info-list a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+}
+.xs-info-list img {
+    margin-right: 20px;
+}
+
+ul li {
+    font-weight: bold;
+}
+
+.footer-widget .widget-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.xs-copyright-text p {
+    color: #ff9a03;
+    font-size: 14px;
+    font-weight: bold;
+}
