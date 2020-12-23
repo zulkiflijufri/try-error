@@ -7,7 +7,7 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="p-6 bg-white flex justify-between mb-6">
+    <nav class="p-6 bg-gray-100 flex justify-between mb-6">
         <ul class="flex items-center">
             <li>
                 <a href="/" class="p-3">Home</a>
