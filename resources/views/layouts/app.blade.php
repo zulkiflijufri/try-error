@@ -23,13 +23,10 @@
         <ul class="flex items-center">
             @auth
             <li>
-                <a href="" class="p-3">#</a>
+                <a href="" class="p-3">{{ auth()->user()->email }}</a>
             </li>
             <li>
-                <form action="#" method="post" class="p-3 inline">
-                    @csrf
-                    <button type="submit">Logout</button>
-                </form>
+                <a href="/logout">Logout</a>
             </li>
             @endauth
 
@@ -38,7 +35,7 @@
                 <a href="/login" class="p-3">Login</a>
             </li>
             <li>
-                <a href="/register" class="p-3">Register</a>
+                <a href="/register" class="p-3 rounded">Register</a>
             </li>
             @endguest
         </ul>
