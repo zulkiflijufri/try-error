@@ -35,10 +35,10 @@
 
             @guest
             <li>
-                <a href="#" class="p-3">Login</a>
+                <a href="/login" class="p-3">Login</a>
             </li>
             <li>
-                <a href="#" class="p-3">Register</a>
+                <a href="/register" class="p-3">Register</a>
             </li>
             @endguest
         </ul>
