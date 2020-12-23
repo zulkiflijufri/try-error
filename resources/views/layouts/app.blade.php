@@ -13,9 +13,6 @@
                 <a href="/" class="p-3">Home</a>
             </li>
             <li>
-                <a href="/dashboard" class="p-3">Dashboard</a>
-            </li>
-            <li>
                 <a href="/notes" class="p-3">Notes</a>
             </li>
         </ul>

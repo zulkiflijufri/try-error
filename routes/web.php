@@ -6,10 +6,6 @@ Route::get('/', function () {
     return view('home');
 })->middleware('auth');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware('auth');
-
 Route::get('/notes', 'NoteController@index');
 Route::post('/notes', 'NoteController@store');
 
