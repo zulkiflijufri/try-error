@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="flex justify-center">
-    <div class="w-8/12 bg-white p-6 rounded-lg">
+    <div class="w-6/12 bg-white p-6 rounded-lg">
         <form action="#" method="post" class="mb-4">
             @csrf
             <div class="mb-4">
@@ -17,7 +17,7 @@
             </div>
 
             <div>
-                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded font-medium">Post</button>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded font-medium">Add note</button>
             </div>
         </form>
     </div>

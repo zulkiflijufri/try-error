@@ -6,6 +6,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/notes', function () {
-    return view('notes.index');
+Route::get('/dashboard', function () {
+    return view('dashboard');
 });
+
+Route::get('/notes', 'NoteController');
